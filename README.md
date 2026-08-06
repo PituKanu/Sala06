@@ -33,7 +33,7 @@ curl -X POST http://localhost:3000/users \
 
 ## Alunos
 
-- Ana Beatriz
-- Bruno Silva
-- Carla Mendes
-- Diego Oliveira
+- Leandro Costa Moreira
+- Fabrizio Quirino
+- Thabata Leite
+- Wellington Ferreira Lima
