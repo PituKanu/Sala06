@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "push-to-github",
+			"type": "shell",
+			"command": "git init && git add . && git commit -m \"Initial commit\" && git remote add origin https://github.com/PituKanu/Sala06.git && git branch -M main && git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "push-to-github",
+			"type": "shell",
+			"command": "git init; git add .; git config user.name \"PituKanu\"; git config user.email \"pitu@example.com\"; git commit -m \"Initial commit\"; git remote add origin https://github.com/PituKanu/Sala06.git; git branch -M main; git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "verify-git-setup",
+			"type": "shell",
+			"command": "cmd /c \"cd /d c:\\Node\\Nestjs\\api-nest-js && git status --short --branch && echo --- && git remote -v\"",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
